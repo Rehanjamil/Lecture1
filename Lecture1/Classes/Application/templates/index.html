@@ -11,7 +11,7 @@
     <div class="form-group">
       <select class="form-control" name="flight_id">
     {% for flight in flights %}
-        <option value="{{ flight.Id }}">{{ flight.origin }} to {{ flight.destination }}</option>
+        <option value="{{ flight.Id }}">{{ flight.Origin }} to {{ flight.Destination }}</option>
     {% endfor %}
       </select>
     </div>
